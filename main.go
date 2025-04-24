@@ -114,7 +114,11 @@ func main() {
 	address := GenerateAddress(publicKey)
 	fmt.Printf("Bitcoin Address compressed: %s\n", address)
 	
+<<<<<<< HEAD
 	//I Use private key and compressed address
 	//bitaddress.org use WIF private key and uncompressed address. 
+=======
+	// Use WIF compressed key and compressed address
+>>>>>>> 7ea2e1ab6875055cb7d4664c18818ecfe7affa47
 
 }
