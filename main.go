@@ -115,6 +115,6 @@ func main() {
 	fmt.Printf("Bitcoin Address compressed: %s\n", address)
 	
 	// I Use WIF compressed key and compressed address
-	// bitaddress.org use WIF private key and uncompressed address. 
+	// bitaddress.org use WIF uncompressed key and uncompressed address. 
 
 }
