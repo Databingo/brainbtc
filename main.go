@@ -119,6 +119,7 @@ func main() {
 	// I Use WIF compressed key together with compressed address
 	// bitaddress.org default use WIF uncompressed key and uncompressed address. 
 
+	//-------------------
 	// Temp print QR or compressed key on screen 
 	//qrterminal.Generate(wif, qrterminal.L, os.Stdout)
 
