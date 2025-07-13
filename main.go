@@ -10,7 +10,9 @@ import (
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/btcsuite/btcutil/base58"
 	"golang.org/x/crypto/ripemd160"
+	"github.com/mdp/qrterminal/v3"
 )
+
 
 // GeneratePrivateKey generates a private key using SHA256 on the given passphrase
 func GeneratePrivateKey(passphrase string) []byte {
@@ -116,5 +118,8 @@ func main() {
 	
 	// I Use WIF compressed key together with compressed address
 	// bitaddress.org default use WIF uncompressed key and uncompressed address. 
+
+	// Temp print QR or compressed key on screen 
+	//qrterminal.Generate(wif, qrterminal.L, os.Stdout)
 
 }
