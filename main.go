@@ -120,7 +120,7 @@ func main() {
 	// bitaddress.org default use WIF uncompressed key and uncompressed address. 
 
 	//-------------------
-	// Temp print QR or compressed key on screen 
+	// Temp print QR of compressed key on screen 
 	//qrterminal.Generate(wif, qrterminal.L, os.Stdout)
 	// ctr-b :clear-history in tmux 
 	// reset in termimal
