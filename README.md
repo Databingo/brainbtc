@@ -1,6 +1,6 @@
 # brainbtc
 Bitcoin brainkey generator, use at your own risk.
-# Install:
+# Installation:
 git clone https://github.com/Databingo/brainbtc
 cd brainbtc && go mod tidy
 # Usage:
