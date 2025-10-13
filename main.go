@@ -121,7 +121,7 @@ func main() {
 
 	//-------------------
 	// Temp print QR of compressed key on screen 
-	//qrterminal.Generate(wif, qrterminal.L, os.Stdout)
+	// qrterminal.Generate(wif, qrterminal.L, os.Stdout)
 	// ctr-b :clear-history in tmux 
 	// reset in termimal
 
